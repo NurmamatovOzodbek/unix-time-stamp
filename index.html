@@ -8,7 +8,37 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
+  <main class="container">
+    <section>
+      <div class="current">
+        <h1>The Current Epoch Unix Timestamp</h1>
+        <div class="tstp">
+          <div class="inp">
+            <label for="number">Enter a Timestamp</label>
+            <input type="number" placeholder="1688548865">
+          </div>
+          <p>Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.</p>
+        </div>
+        <button class="btn">
+          Convert
+          <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#FFFFFF"
+              d="m5.106 12 6-6-6-6-1.265 1.265 3.841 3.84H.001v1.79h7.681l-3.841 3.84z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="second__since">
+        <div class="time">
+          <p class="ms"></p>
+          <p>SECONDS SINCE JAN 01 1970. (UTC)</p>
+          <span></span>
+        </div>
+        <button class="copy">Copy</button>
+      </div>
+    </section>
+  </main>
 
 
 
