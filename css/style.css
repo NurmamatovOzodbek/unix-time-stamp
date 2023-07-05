@@ -1,1 +1,108 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+main section .current {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+main section .current h1 {
+  font-size: 18px;
+}
+main section .current .tstp {
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main section .current .tstp .inp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+main section .current .tstp .inp label {
+  font-size: 14px;
+  font-weight: 900;
+}
+main section .current .tstp .inp input {
+  width: 336px;
+  padding: 9.5px 14px;
+  border: 1px solid rgb(177, 171, 171);
+  outline: none;
+  border-radius: 5px;
+}
+main section .current .tstp p {
+  font-size: 14px;
+  color: #777777;
+}
+main section .current button {
+  padding: 11px 21px;
+  background: #2185D0;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+main section .second__since {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+main section .second__since .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+main section .second__since .time .ms {
+  font-size: 48px;
+}
+main section .second__since button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  background: white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
