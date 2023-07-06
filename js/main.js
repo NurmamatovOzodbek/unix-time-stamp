@@ -49,8 +49,10 @@ copyBtn.addEventListener('click', () => {
   let newTime = new Date().getTime()
   navigator.clipboard.writeText(newTime)
   copyBtn.innerText = "Copied!"
+  setTimeout(() =>{
+    copyBtn.innerText = "Copy"
+  },1000)
 })
-
 
 
 
